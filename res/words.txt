@@ -28,7 +28,7 @@ Deportation-deportacija
 Polls-Ankete
 swing states-drzave ki naredijo najvecji vpliv pri volitvah
 convicted-obsojen
-jury-porota
+jury-zirija
 sparked a crisis-vnel krizo
 rallying cry-klic za zbiranje
 withdraw-umakniti se
