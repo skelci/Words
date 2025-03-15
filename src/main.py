@@ -123,7 +123,7 @@ def main():
         if answer == ';':
             break
         wordlearn.check_word(word, answer, lang)
-        print("------------------")
+        print("------------------\n")
 
 
 
