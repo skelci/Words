@@ -11,13 +11,13 @@ mandate-mandat
 battleground-bojisce
 recapture-ponovno zavzeti
 clinch-objem
-posts-delovno mesto
+posts-delovna mesta
 spike-konica
 taking a backseat-Pocasi biti vedno manj viden
-pundits-Kritik,strokovnja
+pundits-strokovnjaki
 pronounced-izvoljen
 mob-razjarjena mnozica
-sting-zrelo oz. pik
+sting-zrelo
 announcing her resignation-napovedovanje njenega odstopa
 analysts-Analitiki
 Senate-senat
@@ -31,26 +31,26 @@ convicted-obsojen
 jury-porota
 sparked a crisis-vnel krizo
 rallying cry-klic za zbiranje
-withdraw-dvigniti
+withdraw-umakniti
 rally-izboljsanje
-memorable-znamenit
+memorable-zapomnljiv
 former president-bivsi predsednik
 fiery debate-goreca razprava
 sacked from-odpuscen
 at the end of my tether-na koncu z zivci
 sympathetic-razumevajoc
 dismissal-neupostevanje
-arachnophobia-phobia pajkov
+arachnophobia-strah pred pajki
 exaggerated-pretiran
 indigenous-domac
 infestation-okuzenost
 amorous-ljubezenski
 sensationalized-senzacionalen
 scaremongering-sirjenje preplaha
-apocryphal arachnid lurking-pajki prezijo
+arachnids lurking-pajki prezijo
 widows spiders-vdove pajki
 lurid-blescec
-insistence-Vztrajanje pri
+insistence-Vztrajanje
 stoking-zbujati
 scoured-precesan
 sac-mesocek
@@ -68,18 +68,18 @@ contagion-okuzba
 sinister-zastrasujoc
 dispel-pregnati
 irritation-zivciranje
-referring-se nanasajo
+referring-sklicevanje
 shriek-vrisc
 put up with-ziveti z
 agonizing-mucen
-wander-potep
+wander-potepati se
 wasps-ose
 ceremony-obred
-hornets-srsen
+hornets-srseni
 crawlies-zuzelke
 shed-lopa
 nutritious-hranilen
-plugholes-luknje
+plugholes-odtoki
 lessen-zmanjsevati
 scuttle-hiteti
 anxious-zaskrbljen
