@@ -24,7 +24,7 @@ Senate-senat
 Charged-obtozen
 Altercation-spor
 Falsigied-Ponarejen
-Deportation-izgnan
+Deportation-deportacija
 Polls-Ankete
 swing states-drzave ki naredijo najvecji vpliv pri volitvah
 convicted-obsojen
