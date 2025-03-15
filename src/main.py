@@ -102,3 +102,8 @@ def main():
             break
         wordlearn.check_word(word, answer, lang)
 
+
+
+if __name__ == '__main__':
+    main()
+
