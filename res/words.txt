@@ -64,7 +64,7 @@ narrative-pripoved
 weave-tkati
 provokes-provocira
 contagion-okuzba
-sinister-zastrasujoc
+sinister-zlovesc
 dispel-razbliniti
 irritation-zivciranje
 referring-sklicevanje
