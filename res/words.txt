@@ -65,7 +65,7 @@ weave-tkati
 provokes-provocira
 contagion-okuzba
 sinister-zastrasujoc
-dispel-pregnati
+dispel-razbliniti
 irritation-zivciranje
 referring-sklicevanje
 shriek-vrisc
