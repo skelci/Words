@@ -23,7 +23,7 @@ analysts-Analitiki
 Senate-senat
 Charged-obtozen
 Altercation-spor
-Falsigied-Ponarejen
+Falsified-Ponarejen
 Deportation-deportacija
 Polls-Ankete
 swing states-drzave ki naredijo najvecji vpliv pri volitvah
