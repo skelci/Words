@@ -1,86 +1,86 @@
 Elections-Volitve
 Electoral-volilen
-Democratic party-Demokratična stranka
+Democratic party-Demokraticna stranka
 Assassinated-Umorjen
-allowed to serve-dovoljeno služiti
+allowed to serve-dovoljeno sluziti
 regain-ponovno pridobiti
 projected-predvidoma
 forecasted-napovedanih
 unprecedented-edinstven
 mandate-mandat
-battleground-bojišče
+battleground-bojisce
 recapture-ponovno zavzeti
 clinch-objem
 posts-delovno mesto
 spike-konica
-taking a backseat-Počasi biti vedno manj viden
+taking a backseat-Pocasi biti vedno manj viden
 pundits-Kritik,strokovnja
 pronounced-izvoljen
-mob-razjarjena množica
-sting-želo oz. pik
+mob-razjarjena mnozica
+sting-zrelo oz. pik
 announcing her resignation-napovedovanje njenega odstopa
 analysts-Analitiki
 Senate-senat
-Charged-obtožen
+Charged-obtozen
 Altercation-spor
 Falsigied-Ponarejen
 Deportation-izgnan
 Polls-Ankete
-swing states-države ki naredijo največji vpliv pri volitvah
+swing states-drzave ki naredijo najvecji vpliv pri volitvah
 convicted-obsojen
 jury-porota
 sparked a crisis-vnel krizo
 rallying cry-klic za zbiranje
 withdraw-dvigniti
-rally-izboljšanje
+rally-izboljsanje
 memorable-znamenit
-former president-bivši predsednik
-fiery debate-goreča razprava
-sacked from-odpuščen
-at the end of my tether-na koncu z živci
-sympathetic-razumevajoč
-dismissal-neupoštevanje
+former president-bivsi predsednik
+fiery debate-goreca razprava
+sacked from-odpuscen
+at the end of my tether-na koncu z zivci
+sympathetic-razumevajoc
+dismissal-neupostevanje
 arachnophobia-phobia pajkov
 exaggerated-pretiran
-indigenous-domač
-infestation-okuženost
+indigenous-domac
+infestation-okuzenost
 amorous-ljubezenski
 sensationalized-senzacionalen
-scaremongering-širjenje preplaha
-apocryphal arachnid lurking-pajki prežijo
+scaremongering-sirjenje preplaha
+apocryphal arachnid lurking-pajki prezijo
 widows spiders-vdove pajki
-lurid-bleščeč
+lurid-blescec
 insistence-Vztrajanje pri
 stoking-zbujati
-scoured-prečesan
-sac-mešoček
+scoured-precesan
+sac-mesocek
 recluse-samotaren
-misidentification-napačna identifikacija
+misidentification-napacna identifikacija
 terror-groza
-coincided-naključno
+coincided-nakljucno
 ulcerations-razjede
 necrosis-nekroza
-compelling-prepričljiv
+compelling-prepricljiv
 narrative-pripoved
 weave-tkati
 provokes-izzvati
-contagion-okužba
-sinister-zastrašujoč
+contagion-okuzba
+sinister-zastrasujoc
 dispel-pregnati
-irritation-živciranje
-referring-se nanašajo
-shriek-vrišč
-put up with-živeti z
-agonizing-mučen
+irritation-zivciranje
+referring-se nanasajo
+shriek-vrisc
+put up with-ziveti z
+agonizing-mucen
 wander-potep
 wasps-ose
 ceremony-obred
-hornets-sršen
-crawlies-žuželke
+hornets-srsen
+crawlies-zuzelke
 shed-lopa
 nutritious-hranilen
 plugholes-luknje
-lessen-zmanjševati
+lessen-zmanjsevati
 scuttle-hiteti
 anxious-zaskrbljen
 stiff-trd

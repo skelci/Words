@@ -10,16 +10,6 @@ class Lang(IntEnum):
 
 
 
-class Word:
-    def __init__(self, eng):
-        self.word = eng.lower().strip()
-
-
-    def __str__(self):
-        return self.word
-
-
-
 class Words:
     def __init__(self, words_file, cache_file, learning_factor=1.1):
         self.words_file = words_file
@@ -32,6 +22,11 @@ class Words:
 
     def __del__(self):
         self.__save_cache()
+
+
+    @staticmethod
+    def __format_word(word):
+        return word.lower().strip()
         
 
     def __load_words(self):
@@ -41,30 +36,44 @@ class Words:
             self.__words_eng = {}
             self.__words_slo = {}
             for word in words:
-                eng, slo = word.split(',')
-                self.__words_slo[eng] = Word(slo)
-                self.__words_eng[slo] = Word(eng)
+                try:
+                    eng, slo = word.split('-')
+                    eng = self.__format_word(eng)
+                    slo = self.__format_word(slo)
+                except ValueError:
+                    print(f'Invalid word: {word}')
+                    continue
+                self.__words_slo[eng] = slo
+                self.__words_eng[slo] = eng
 
 
     def __load_cache(self):
+        self.__cache = {word: 1.0 for word in self.__words_eng.values()}
         if not os.path.exists(self.cache_file):
             os.mkdir(self.cache_file)
-            self.__cache = {}
             return
         
         with open(self.cache_file, 'r') as f:
-            lines = f.read()
-            self.__cache = {word: int(learned) for word, learned in lines.split('|')}
+            lines = f.read().splitlines()
+            for line in lines:
+                if not line:
+                    continue
+                try:
+                    word, learned = line.split('|')
+                except ValueError:
+                    print(f'Invalid cache line: {line}')
+                    continue
+                self.__cache[word] = float(learned)
 
 
     def __save_cache(self):
         with open(self.cache_file, 'w') as f:
-            f.write('|'.join([f'{word} {learned}' for word, learned in self.__cache.items()]))
+            f.write('\n'.join([f'{word}|{learned}' for word, learned in self.__cache.items()]))
 
 
     def get_random_word(self):
         learned_sum = sum(self.__cache.values())
-        rnd_num = random.randrange(0, learned_sum)
+        rnd_num = random.random() * learned_sum
 
         for word, learned in self.__cache.items():
             rnd_num -= learned
@@ -75,19 +84,32 @@ class Words:
                     return self.__words_slo[word], Lang.SLO
             
 
-    def check_word(self, word_eng, word_slo, original_lang):
+    def check_word(self, word, anwser, original_lang):
         if original_lang == Lang.ENG:
-            word = self.__words_slo[word_eng]
-            key_word = word_eng
-            if word.word == word_slo:
+            word_eng = word
+            word_slo = anwser
+            word_key = word_eng
+        else:
+            word_eng = anwser
+            word_slo = word
+            word_key = self.__words_eng[word_slo]
+        correct = False
+
+        if original_lang == Lang.ENG:
+            tmp_word = self.__words_slo[word_eng]
+            if tmp_word == word_slo:
                 correct = True
         else:
-            word = self.__words_eng[word_slo]
-            key_word = word
-            if word.word == word_eng:
+            tmp_word = self.__words_eng[word_slo]
+            if tmp_word == word_eng:
                 correct = True
 
-        self.__cache[key_word] *= self.learning_factor if correct else 1 / self.learning_factor
+        self.__cache[word_key] *= self.learning_factor if correct else 1 / self.learning_factor
+
+        print('Correct!' if correct else 'Wrong!')
+        if not correct:
+            print(f'Correct answer: {self.__words_eng[word_slo] if original_lang == Lang.SLO else self.__words_slo[word_eng]}')
+        print(f'Learned: {self.__cache[word_key]}')
 
 
 
@@ -101,6 +123,7 @@ def main():
         if answer == ';':
             break
         wordlearn.check_word(word, answer, lang)
+        print("------------------")
 
 
 
