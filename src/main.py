@@ -46,7 +46,6 @@ class Words:
                 self.__words_eng[slo] = Word(eng)
 
 
-
     def __load_cache(self):
         if not os.path.exists(self.cache_file):
             os.mkdir(self.cache_file)
