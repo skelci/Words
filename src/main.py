@@ -104,12 +104,12 @@ class Words:
             if tmp_word == word_eng:
                 correct = True
 
-        self.__cache[word_key] *= self.learning_factor if correct else 1 / self.learning_factor
+        self.__cache[word_key] /= self.learning_factor if correct else 1 / self.learning_factor
 
         print('Correct!' if correct else 'Wrong!')
         if not correct:
             print(f'Correct answer: {self.__words_eng[word_slo] if original_lang == Lang.SLO else self.__words_slo[word_eng]}')
-        print(f'Learned: {self.__cache[word_key]}')
+        print(f'Learned: {1 / self.__cache[word_key]}')
 
 
 
