@@ -31,7 +31,7 @@ convicted-obsojen
 jury-porota
 sparked a crisis-vnel krizo
 rallying cry-klic za zbiranje
-withdraw-umakniti
+withdraw-umakniti se
 rally-izboljsanje
 memorable-zapomnljiv
 former president-bivsi predsednik
