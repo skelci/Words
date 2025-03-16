@@ -139,7 +139,9 @@ def main():
         answer = input('Answer: ')
         if answer == ',':
             answer = input('Answer: ')
+            wordlearn.check_word(word, answer, lang)
             print_stats()
+            continue
         if answer == ';':
             answer = input('Answer: ')
             wordlearn.check_word(word, answer, lang)
