@@ -139,8 +139,10 @@ def main():
         answer = input('Answer: ')
         if answer == ',':
             print_stats()
-            continue
+            answer = input('Answer: ')
         if answer == ';':
+            answer = input('Answer: ')
+            wordlearn.check_word(word, answer, lang)
             break
         wordlearn.check_word(word, answer, lang)
         print("------------------\n")
