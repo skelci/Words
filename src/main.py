@@ -138,8 +138,8 @@ def main():
         print(f'Word: {word} ({"ENG" if lang == Lang.ENG else "SLO"})')
         answer = input('Answer: ')
         if answer == ',':
-            print_stats()
             answer = input('Answer: ')
+            print_stats()
         if answer == ';':
             answer = input('Answer: ')
             wordlearn.check_word(word, answer, lang)
