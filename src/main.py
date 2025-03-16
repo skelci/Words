@@ -127,17 +127,22 @@ class Words:
 def main():
     wordlearn = Words('res/words.txt', 'res/cache.txt')
 
+    def print_stats():
+        print("\n------------------------------------------------\n")
+        wordlearn.print_stats()
+        print("\n------------------------------------------------\n")
+
     while True:
         word, lang = wordlearn.get_random_word()
         print(f'Word: {word} ({"ENG" if lang == Lang.ENG else "SLO"})')
         answer = input('Answer: ')
+        if answer == ',':
+            print_stats()
+            continue
         if answer == ';':
             break
         wordlearn.check_word(word, answer, lang)
         print("------------------\n")
-
-    print("\n------------------------------------------------\n")
-
 
 
 if __name__ == '__main__':
