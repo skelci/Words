@@ -43,7 +43,7 @@ dismissal-odpustitev
 arachnophobia-strah pred pajki
 exaggerated-pretiran
 indigenous-domac
-infestation-okuzenost
+infestation-okuzba
 amorous-ljubezenski
 sensationalized-senzacionalen
 scaremongering-sirjenje preplaha
@@ -63,7 +63,7 @@ compelling-prepricljiv
 narrative-pripoved
 weave-tkati
 provokes-provocira
-contagion-okuzba
+contagion-nalezljivost
 sinister-zlovesc
 dispel-razbliniti
 irritation-zivciranje
