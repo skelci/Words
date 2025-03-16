@@ -22,7 +22,6 @@ class Words:
 
     def __del__(self):
         self.__save_cache()
-        self.print_stats()
 
 
     @staticmethod
@@ -143,6 +142,8 @@ def main():
             break
         wordlearn.check_word(word, answer, lang)
         print("------------------\n")
+
+    print_stats()
 
 
 if __name__ == '__main__':
