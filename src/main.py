@@ -22,6 +22,7 @@ class Words:
 
     def __del__(self):
         self.__save_cache()
+        self.print_stats()
 
 
     @staticmethod
@@ -111,6 +112,16 @@ class Words:
             print(f'Correct answer: {self.__words_eng[word_slo] if original_lang == Lang.SLO else self.__words_slo[word_eng]}')
         print(f'Learned: {1 / self.__cache[word_key]}')
 
+    def print_stats(self):
+        learned = sum((1 / item for item in self.__cache.values()))
+        avg_learned = learned / len(self.__cache)
+        min_learned = min(self.__cache.values())
+        max_learned = max(self.__cache.values())
+        print(f'Learned: {learned}')
+        print(f'Avg learned: {avg_learned}')
+        print(f'Min learned: {1 / max_learned}')
+        print(f'Max learned: {1 / min_learned}')
+
 
 
 def main():
@@ -124,6 +135,8 @@ def main():
             break
         wordlearn.check_word(word, answer, lang)
         print("------------------\n")
+
+    print("\n------------------------------------------------\n")
 
 
 
