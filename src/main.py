@@ -113,6 +113,7 @@ class Words:
 
     def print_stats(self):
         learned = sum((1 / item for item in self.__cache.values()))
+        learned_sum = sum((1 for item in self.__cache.values() if item < 1))
         avg_learned = learned / len(self.__cache)
         min_learned = min(self.__cache.values())
         max_learned = max(self.__cache.values())
@@ -120,6 +121,7 @@ class Words:
         print(f'Avg learned: {avg_learned}')
         print(f'Min learned: {1 / max_learned}')
         print(f'Max learned: {1 / min_learned}')
+        print(f'Words to learn: {len(self.__cache) - learned_sum}')
 
 
 
