@@ -11,7 +11,7 @@ class Lang(IntEnum):
 
 
 class Words:
-    def __init__(self, words_file, cache_file, learning_factor=1.1):
+    def __init__(self, words_file, cache_file, learning_factor=1.5):
         self.words_file = words_file
         self.cache_file = cache_file
         self.learning_factor = learning_factor
@@ -138,9 +138,9 @@ def main():
         print(f'Word: {word} ({"ENG" if lang == Lang.ENG else "SLO"})')
         answer = input('Answer: ')
         if answer == ',':
+            print_stats()
             answer = input('Answer: ')
             wordlearn.check_word(word, answer, lang)
-            print_stats()
             continue
         if answer == ';':
             answer = input('Answer: ')
