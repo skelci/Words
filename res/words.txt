@@ -35,7 +35,7 @@ _thrifty;economical-_stingy;mean;tight fisted;miserly
 _self asured;confident-_self important;arrogant;full of yourself
 _unconventional;original-_eccentric;odd;peculiar;weird
 _frank;direct;open-_blunt;abrupt;brusque;curt
-_broad minded-unprincipled;permissive
+_broad minded-_unprincipled;permissive
 _enquiring-_nosy;inquisitive
 _generous-_extravagant
 _innocent-_naive
