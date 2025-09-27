@@ -49,8 +49,7 @@ class Words:
 
     def __load_cache(self):
         self.__cache = {word: 1.0 for word in self.__words_eng.values()}
-        if not os.path.exists(self.cache_file):
-            os.mkdir(self.cache_file)
+        if not os.path.isfile(self.cache_file):
             return
         
         with open(self.cache_file, 'r') as f:
